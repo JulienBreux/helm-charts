@@ -1,0 +1,41 @@
+apiVersion: v1
+entries:
+  rabdis:
+  - apiVersion: v2
+    appVersion: v0.12.0
+    created: "2021-03-16T11:14:11.607138152Z"
+    dependencies:
+    - condition: rabbitmq.useInternal
+      name: rabbitmq
+      repository: https://charts.bitnami.com/bitnami/
+      tags:
+      - test
+      - internal
+      version: 8.10.2
+    - condition: redis.useInternal
+      name: redis
+      repository: https://charts.bitnami.com/bitnami/
+      tags:
+      - test
+      - internal
+      version: 12.7.5
+    description: Play with redis keys from RabbitMQ messages
+    digest: da086da4a9d16701465c39fadf4c9a8ead20cef646af8c3fb6b77edd47954f29
+    home: https://github.com/JulienBreux/rabdis/
+    icon: https://raw.githubusercontent.com/JulienBreux/rabdis/main/manifests/charts/rabdis/assets/img/logo.png
+    keywords:
+    - redis
+    - rabbitmq
+    - broker
+    maintainers:
+    - email: julien@golang.fr
+      name: Julien BREUX
+      url: https://github.com/JulienBreux/
+    name: rabdis
+    sources:
+    - https://github.com/JulienBreux/rabdis/
+    type: application
+    urls:
+    - https://github.com/JulienBreux/helm-charts/releases/download/rabdis-0.1.0/rabdis-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-16T11:14:11.607151752Z"

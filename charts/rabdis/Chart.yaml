@@ -36,4 +36,4 @@ maintainers:
 
 icon: https://raw.githubusercontent.com/JulienBreux/rabdis/main/manifests/charts/rabdis/assets/img/logo.png
 
-appVersion: "v0.12.0"
+appVersion: v0.14.0
